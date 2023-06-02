@@ -1,17 +1,17 @@
-export const depositMonye = (amt) => {
+export const depositMoney = (amount) => {
   return (dispatch) => {
     dispatch({
       type: "deposit",
-      payload: amt,
+      payload: amount,
     });
   };
 };
 
-export const withdrawMonye = (amt) => {
+export const withdrawMoney = (amount) => {
   return (dispatch) => {
     dispatch({
       type: "withdraw",
-      payload: amt,
+      payload: amount,
     });
   };
 };
